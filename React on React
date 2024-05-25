@@ -1,76 +1,155 @@
 React JS
 ----------
 Solving problem with bolt...(somewhat)
+created the first version called "FaxJS"
 one of the original name was fBolt(functional bolt) (BoltJS-Shane O'Sullivan)
 
 
-Development related persons
 
-  Jordan Walke: (product engineer(Adds) @FB)
-  Creator of React. 
-  Developed the initial prototype and concepts of React.
-
-  Lee Byron: (former engineering lead @FB)
-  key role in the development of React and its ecosystem 
-  contributed to the design and improvement of React's core concepts, particularly around data handling and state management
-              ***Best known for co-creating GraphQL, (a query language for APIs that manage data fetching efficiently)
-  
-  Jing Chan: (Software engineer at product infrastructure team @ FB)
-  Somehow help the team to get along and team management... Really important
-
-
-  Shane O'Sullivan: (former Senior UIE @ FB
-  creator of BoltJS
-  Sacrificed his project for React
-
-
-  Tom Occhino(Former Engineering Director  @ FB):
-  Early promoter and contributor.
-  Introduced React to the public and explained its benefits.
-
-  Christopher Chedeau (vjeux):
-  Early contributor and advocate.
-  Worked on improving React and also helped develop React Native.
-
-
-  Pete Hunt: (Former tech lead, Instagram Web team)
-  Early team member (former FB photo/video team) (his mother did not like Mark)
-  Helped make React open-source and promoted its use in the industry.
-  Used react for the first time on a big scale for building Instagram web... (2nd project with react)
-
-
-  Adam Wolff:
-  Former Director of product infrastructure @ FB
-  Instrumental in supporting and advocating for the development of React, key person for making React open source.
-
-
-  Christopher Chedeau(vjeux):
-  Frontend engineer manager @ FB
-  Early contributor and advocate.
-  Worked on improving React and also helped develop React Native.
-
-
-  Sebastian Markbåge: (Former frontend engineer @ FB)
-  Core team member.
-  Worked on the architectural changes in React, including React Fiber.
-  contributed to the rewrite of React’s core algorithm, known as React Fiber, which improved efficiency and performance of React by enabling incremental rendering.
-  contributed to the development of Suspense, a feature that simplifies the handling of asynchronous operations like data fetching in React components.
-
-
-
-
-
-
-
-Origin of React:
+Origin and Developmet
+----------------------------------------------------------------------------------
 
 React was developed to solve different challenges in web development, mainly the complexity of building dynamic and high-performance user interfaces.
 Facebook's development team encountered difficulties in managing a complex user interface with their traditional approach, which led them to create React.
 
 
+Initial Development
+
+  Early Beginnings (2011):
+    React started as a project at Facebook to make their ads system easier to use.
+    Jordan Walke, a Facebook engineer, created the first version called "FaxJS." This new way of building user interfaces was more efficient.
+
+  Internal Use at Facebook:
+    React was first used in Facebook’s news feed. It worked so well that Facebook decided to invest more time and working on the adds section.
+
+
+
+Open Sourcing and Community Adoption
+
+  Public Release (2013):
+    Facebook released React to the public in May 2013 at a conference called JSConf US.
+    Tom Occhino and Pete Hunt from Facebook helped introduce React to the wider JavaScript community.
+
+  Key Innovations:
+    JSX: A special syntax that lets you write HTML directly in JavaScript, making it easier to create user interfaces.
+    Virtual DOM: React creates a virtual version of the web page in memory and updates only the parts that need to change, making it faster.
+    Components: React uses small, reusable pieces called components to build user interfaces, which makes the code easier to manage and reuse.
+
+
+Growth and Evolution
+
+  Increasing Popularity (2014-2016):
+    React quickly became popular, and many developers started using it to build web applications.
+    New tools and libraries, like React Router (for navigation) and Redux (for managing state), were created to work with React.
+
+  React Native (2015):
+    Facebook released React Native, which allows developers to build mobile apps using React. This made React even more popular.
+  
+
+
+
+Major Updates and Improvements
+
+  React Fiber (2017):
+    Facebook completely rewrote React’s core, calling it React Fiber. This made React better at handling complex updates and improved performance.
+  
+  Hooks (2019):
+    React introduced Hooks, a new way to use state and other React features without writing complex class-based components. Hooks made React easier and more
+    powerful to use.
+  
+  Concurrent Mode and Suspense:
+    Concurrent Mode: Makes React apps more responsive by allowing tasks to be paused and resumed.
+    Suspense: Helps with handling loading states in a simpler way when fetching data.
+
+  React Server Components (2020):
+    Allows some parts of the app to be rendered on the server, improving performance for users.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Development related persons
+----------------------------------------------------------------------------------------------
+
+  Jordan Walke: (product engineer(Adds) @FB)
+      Creator of React. 
+      Developed the initial prototype and concepts of React.
+
+  Lee Byron: (former engineering lead @FB)
+      key role in the development of React and its ecosystem 
+      contributed to the design and improvement of React's core concepts, particularly around data handling and state management
+                  ***Best known for co-creating GraphQL, (a query language for APIs that manage data fetching efficiently)
+  
+  Jing Chan: (Software engineer at product infrastructure team @ FB)
+      Somehow help the team to get along and team management... Really important
+
+
+  Shane O'Sullivan: (former Senior UIE @ FB
+    creator of BoltJS
+    Sacrificed his project for React
+
+
+  Tom Occhino(Former Engineering Director  @ FB):
+      Early promoter and contributor.
+      Introduced React to the public and explained its benefits.
+
+  Christopher Chedeau (vjeux):
+      Early contributor and advocate.
+      Worked on improving React and also helped develop React Native.
+
+
+  Pete Hunt: (Former tech lead, Instagram Web team)
+      Early team member (former FB photo/video team) (his mother did not like Mark)
+      Helped make React open-source and promoted its use in the industry.
+      Used react for the first time on a big scale for building Instagram web... (2nd project with react)
+
+
+  Adam Wolff:
+      Former Director of product infrastructure @ FB
+      Instrumental in supporting and advocating for the development of React, key person for making React open source.
+
+
+  Christopher Chedeau(vjeux):
+      Frontend engineer manager @ FB
+      Early contributor and advocate.
+      Worked on improving React and also helped develop React Native.
+
+
+  Sebastian Markbåge: (Former frontend engineer @ FB)
+      Core team member.
+      Worked on the architectural changes in React, including React Fiber.
+      contributed to the rewrite of React’s core algorithm, known as React Fiber, which improved efficiency and performance of React by enabling incremental rendering.
+      contributed to the development of Suspense, a feature that simplifies the handling of asynchronous operations like data fetching in React components.
+
+
+  Dan Abramov:
+      Core team member.
+      Creating Redux and for significant improvements in React, including Hooks.
+
+
+  Andrew Clark:
+      Core team member.
+      Co-created Redux and contributed to many important features in React.
+
+
+  Maikel(Designer @ Instagram)
+      
+      created react logo
+
 
 
 Problems React Solves
+----------------------------------------------------------------------------------------
 
 Complexity of UI Development
   Before React:   Building and maintaining complex user interfaces with traditional JavaScript or jQuery required manipulating the DOM directly.
