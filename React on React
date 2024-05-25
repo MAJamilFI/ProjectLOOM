@@ -1,3 +1,146 @@
 React JS
 ----------
+Solving problem with bolt...(somewhat)
+one of the original name was fBolt(functional bolt) (BoltJS-Shane O'Sullivan)
+
+
+Development related persons
+
+  Jordan Walke: (product engineer(Adds) @FB)
+  Creator of React. 
+  Developed the initial prototype and concepts of React.
+
+  Lee Byron: (former engineering lead @FB)
+  key role in the development of React and its ecosystem 
+  contributed to the design and improvement of React's core concepts, particularly around data handling and state management
+              ***Best known for co-creating GraphQL, (a query language for APIs that manage data fetching efficiently)
+  
+  Jing Chan: (Software engineer at product infrastructure team @ FB)
+  Somehow help the team to get along and team management... Really important
+
+
+  Shane O'Sullivan: (former Senior UIE @ FB
+  creator of BoltJS
+  Sacrificed his project for React
+
+
+  Tom Occhino(Former Engineering Director  @ FB):
+  Early promoter and contributor.
+  Introduced React to the public and explained its benefits.
+
+  Christopher Chedeau (vjeux):
+  Early contributor and advocate.
+  Worked on improving React and also helped develop React Native.
+
+
+  Pete Hunt: (Former tech lead, Instagram Web team)
+  Early team member (former FB photo/video team) (his mother did not like Mark)
+  Helped make React open-source and promoted its use in the industry.
+  Used react for the first time on a big scale for building Instagram web... (2nd project with react)
+
+
+  Adam Wolff:
+  Former Director of product infrastructure @ FB
+  Instrumental in supporting and advocating for the development of React, key person for making React open source.
+
+
+  Christopher Chedeau(vjeux):
+  Frontend engineer manager @ FB
+  Early contributor and advocate.
+  Worked on improving React and also helped develop React Native.
+
+
+  Sebastian Markbåge: (Former frontend engineer @ FB)
+  Core team member.
+  Worked on the architectural changes in React, including React Fiber.
+  contributed to the rewrite of React’s core algorithm, known as React Fiber, which improved efficiency and performance of React by enabling incremental rendering.
+  contributed to the development of Suspense, a feature that simplifies the handling of asynchronous operations like data fetching in React components.
+
+
+
+
+
+
+
+Origin of React:
+
+React was developed to solve different challenges in web development, mainly the complexity of building dynamic and high-performance user interfaces.
+Facebook's development team encountered difficulties in managing a complex user interface with their traditional approach, which led them to create React.
+
+
+
+
+Problems React Solves
+
+Complexity of UI Development
+  Before React:   Building and maintaining complex user interfaces with traditional JavaScript or jQuery required manipulating the DOM directly.
+                  This approach was error-prone, hard to maintain, and not conducive to building highly interactive UIs.
+  React Solution: React introduces a component-based architecture where the UI is broken down into reusable, self-contained components.
+                  This modular approach simplifies the development and maintenance of complex interfaces.
+
+
+Performance Issues
+  Before React:   Direct DOM manipulation was not efficient, leading to performance issues, especially with frequent updates and large-scale applications.
+  React Solution: React uses a virtual DOM, which is a lightweight in-memory representation of the actual DOM. When the state of an object changes,
+                  React updates the virtual DOM first, then efficiently reconciles these changes with the real DOM, minimizing direct DOM manipulations and
+                  enhancing performance.
+
+
+State Management
+  Before React:   Managing the state of an application, especially as it grows in complexity, was challenging. Traditional tools lacked a clear mechanism for
+                  state management, often resulting in spaghetti code.
+  React Solution: React components have their own state, and React's unidirectional data flow makes it easier to track and manage state changes.
+                  This predictable state management improves the reliability and maintainability of applications.
+
+
+Reusability and Modularity
+  Before React:   Reusing UI components across different parts of an application or across different projects was difficult with traditional approaches.
+  React Solution: React promotes the creation of reusable components, which can be easily shared and reused across different parts of an application or in
+                  different projects, enhancing productivity and consistency.
+
+                 
+Declarative Programming
+
+  Before React:   UI development was typically imperative, meaning developers had to manually specify each step of the UI update process,
+                  leading to more complex code.
+  React Solution: React adopts a declarative approach, where developers describe what the UI should look like based on the current state.
+                  React takes care of updating the UI when the state changes, simplifying the development process and reducing bugs.
+
+
+
+
+Comparison with Previous or Existing Tools
+-------------------------------------------
+jQuery:
+  Before React: jQuery was used a lot to change how web pages looked and behaved. It made it easier to do things like showing or hiding elements,
+                handling user actions like clicks, and updating content on the page.
+
+  Comparison with React: jQuery focuses on directly changing the webpage's elements, which can get messy as the webpage gets more complicated.
+                         React organizes the webpage into smaller, reusable parts called components, making it easier to manage and update.
+
+
+AngularJS (Angular 1.x):
+  Before React: AngularJS aimed to make it easier to build web applications by providing a structure for organizing code and handling data.
+
+  Comparison with React: AngularJS had a steep learning curve, and its two-way data binding could sometimes slow down the app. React uses a simpler
+                         approach for managing data flow, which can make apps faster and easier to understand.
+
+
+Backbone.js:
+  Before React: Backbone.js helped organize JavaScript code by providing tools for models, views, and collections.
+
+  Comparison with React: Backbone.js required more code to set up and didn't have features like the virtual DOM, which helps React make updates to the
+                         webpage faster. React's component-based approach simplifies building web applications.
+
+
+Vue.js:
+  Before React: Vue.js, like React, aimed to make building web interfaces easier by providing tools for organizing code and managing data.
+
+  Comparison with React: Vue.js is known for its simplicity and flexibility, making it easier for beginners to learn. While React uses a virtual DOM
+                         to speed up updates, Vue.js uses a different system called reactivity, which also helps keep web apps fast and responsive.
+                         Both Vue.js and React use components to build web interfaces, but Vue.js might feel more straightforward for some developers.
+
+
+
+
 
