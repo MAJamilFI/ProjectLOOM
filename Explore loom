@@ -20,6 +20,9 @@ Mobile App: Record and share videos from your mobile device.
 
 
 
+
+flow:
+
 1. Getting Started
   Sign Up: Create an account using your email, Google, or Slack.
   Install Loom: Use the desktop app (Windows or macOS), Chrome extension, or mobile app (iOS and Android).
@@ -31,7 +34,7 @@ Mobile App: Record and share videos from your mobile device.
     Screen and Camera: Record your screen and yourself.
     Screen Only: Record just your screen.
     Camera Only: Record only yourself.
-  Set Up:
+  Set-Up:
     Microphone: Select your audio source.
     Camera: Choose your webcam if recording yourself.
     Quality: Adjust video quality settings.
