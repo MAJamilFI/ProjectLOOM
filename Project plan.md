@@ -21,7 +21,7 @@
 - **Task 3.1.1:** Design a simple landing page layout.
 - **Task 3.1.2:** Implement the landing page in React.
 - **Task 3.1.3:** Add basic styling to the landing page.
-- **Task 3.1.4:** Test the landing page for responsiveness.
+- **Task 3.1.4:** Test the landing page.
 
 ## Epic 4: User Authentication (Signup/Login Process)
 ### User Story 4.1: User Signup
@@ -35,4 +35,3 @@
 - **Task 4.2.2:** Implement form validation.
 - **Task 4.2.3:** Set up API endpoints for user authentication in Spring Boot.
 - **Task 4.2.4:** Connect the login form to the backend API.
-- **Task 4.2.5:** Implement session management and token storage.
